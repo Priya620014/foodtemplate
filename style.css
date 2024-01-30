@@ -1,0 +1,96 @@
+.container{
+    margin :0 auto;
+    width: 100%;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    display: flex; 
+    align-items:center;
+}
+.service{
+    width: 70%;
+    height: 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.service a{
+    text-decoration: none;
+    color:rgb(98, 97, 97);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   font-size: 14px;
+}
+.logo{
+    height: 59px;
+    width: 10%;
+}
+.logo img{
+    width: 100%;
+}
+.icons{
+    height: 60px;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main{
+       background-image: url(https://www.shutterstock.com/image-photo/slices-whole-citruses-laid-out-260nw-1814765924.jpg);
+       height: 500px;
+       background-repeat: no-repeat;
+       background-size: cover;
+       color: azure;
+       padding-top: 1px;
+}
+.fmain{
+    font-size:70px ;
+    text-align: center;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 100px;
+}
+.maincontent{
+     width: 70%;
+     padding-left: 200px;
+     font-weight: normal;
+}
+.main button{
+border-radius: 20px;
+margin-left: 550px;
+background-color: white;
+border: 2px solid orangered;
+width: 100px;
+}
+.main button a{
+    text-decoration: none;
+    color: orangered;
+}
+.gallery{
+    display: grid;
+    grid-template-columns:400px 400px 400px;
+    padding: 10px;
+   
+    justify-content: space-evenly;
+}
+.gallery g{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.gallery p{
+    width: 290px;
+    text-align: center;
+}
+.social{
+    height:700px;
+    width:1200px;
+    background-color: antiquewhite;
+    padding-left: 300px;
+    
+}
